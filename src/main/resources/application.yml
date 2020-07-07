@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: bootstrapServersExample
+
+
+kafka:
+  bootstrap:
+    servers: setbyappyaml:1234
