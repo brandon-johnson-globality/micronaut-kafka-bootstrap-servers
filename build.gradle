@@ -45,7 +45,7 @@ mainClassName = "bootstrap.servers.example.Application"
 // use JUnit 5 platform
 test {
     useJUnitPlatform()
-    environment('KAFKA_BOOTSTRAP_SERVERS','setby1env:1234')
+    environment('KAFKA_BOOTSTRAP_SERVERS','setbyenv:1234')
 }
 
 java {
